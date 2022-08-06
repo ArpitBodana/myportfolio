@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 function Education() {
   return (
-    <div className="container-fluid text-center shadow-sm">
+    <div className="container-fluid text-center shadow-sm bg-black text-light">
       <div className="d-flex justify-content-start p-4 text-danger ">
         <h2 className="border-bottom border-info">Education - </h2>
       </div>
-      <Container className="fs-5 p-4 d">
+      <Container className="fs-5 p-4">
         <Row className="text-warning">10TH</Row>
         <Row>St Anthony Convent School Sonkatch</Row>
         <Row>Marks - 7.4 CGPA</Row>

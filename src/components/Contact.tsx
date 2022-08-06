@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function Contact() {
   return (
-    <div className="container-fluid text-center shadow-sm">
+    <div className="container-fluid text-center shadow-sm bg-black">
       <div className="d-flex justify-content-start p-4 text-danger ">
         <h2 className="border-bottom border-info">Connect With Me - </h2>
       </div>
@@ -22,6 +22,7 @@ function Contact() {
                 width="48"
                 height="48"
                 viewBox="0 0 48 48"
+                className="logo-animate"
               >
                 <path
                   fill="#0288d1"
@@ -47,6 +48,7 @@ function Contact() {
                 width="64"
                 height="64"
                 viewBox="0 0 64 64"
+                className="logo-animate"
               >
                 <linearGradient
                   id="KpzH_ttTMIjq8dhx1zD2pa_52539_gr1"
@@ -96,6 +98,7 @@ function Contact() {
                 width="48"
                 height="48"
                 viewBox="0 0 48 48"
+                className="logo-animate"
               >
                 <path
                   fill="#304ffe"
