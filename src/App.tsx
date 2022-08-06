@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="min-vh-100 text-center">
+    <div className="min-vh-100 text-center bg-dark">
       <Top />
       <Education />
       <Skills />
